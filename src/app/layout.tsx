@@ -4,6 +4,8 @@ import clsx from "clsx";
 import { Nunito, Nunito_Sans } from "next/font/google";
 import { createClient, repositoryName } from "@/prismicio";
 
+import Header from "@/components/Header";
+
 const nunito = Nunito({
   subsets: ["latin"],
   variable: "--font-nunito",
@@ -39,9 +41,11 @@ export default function RootLayout({
 }) {
   return (
     <html className={clsx(nunito.variable, nunitoSans.variable)} lang="en">
-      {/* <header>Header</header> */}
-      <body>{children}</body>
-      {/* <footer>Footer</footer> */}
+      <body>
+        <Header />
+        {children}
+        <footer>Footer</footer>
+      </body>
     </html>
   );
 }
