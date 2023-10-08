@@ -1,0 +1,43 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Trunk"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Eiusmod labore ut magna nulla exercitation esse qui velit esse adipisicing. Ex consequat laborum consectetur aliqua voluptate exercitation nostrud aliqua voluptate duis adipisicing duis reprehenderit qui laborum. Aliquip laboris aliqua Lorem sunt et adipisicing aute nulla ipsum esse sunt esse qui excepteur."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "http://twitter.com"
+				}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "rest",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]
